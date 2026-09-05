@@ -1,0 +1,89 @@
+<mat-toolbar color="primary" class="app-toolbar">
+  <h1 class="text-2xl font-bold">{{ title }}</h1>
+</mat-toolbar>
+
+<div class="app-container">
+  <mat-card class="hero-card">
+    <mat-card-header>
+      <mat-card-title class="text-2xl font-bold text-center">
+        Welcome to Angular Boilerplate
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="space-y-4">
+      <p class="text-lg text-gray-600 text-center">
+        A modern, scalable boilerplate for Angular 21 projects with:
+      </p>
+      <ul class="feature-list">
+        <li class="flex items-center">
+          <span class="badge">✓</span>
+          Angular 21 - Latest Framework
+        </li>
+        <li class="flex items-center">
+          <span class="badge">✓</span>
+          Angular Material - Professional UI
+        </li>
+        <li class="flex items-center">
+          <span class="badge">✓</span>
+          Nx Monorepo - Scalable Architecture
+        </li>
+        <li class="flex items-center">
+          <span class="badge">✓</span>
+          Tailwind CSS - Utility-First Styling
+        </li>
+        <li class="flex items-center">
+          <span class="badge">✓</span>
+          TypeScript - Type Safety
+        </li>
+        <li class="flex items-center">
+          <span class="badge">✓</span>
+          Jest & Testing - Comprehensive Tests
+        </li>
+      </ul>
+    </mat-card-content>
+    <mat-card-actions class="flex justify-center space-x-4">
+      <button
+        mat-raised-button
+        color="primary"
+        class="px-6 py-2"
+      >
+        Get Started
+      </button>
+      <button
+        mat-raised-button
+        color="accent"
+        class="px-6 py-2"
+      >
+        Learn More
+      </button>
+    </mat-card-actions>
+  </mat-card>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+    <mat-card class="feature-card">
+      <mat-card-header>
+        <mat-card-title class="font-semibold">📁 Monorepo Structure</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        Organized with Nx for scalable, efficient development across multiple projects.
+      </mat-card-content>
+    </mat-card>
+
+    <mat-card class="feature-card">
+      <mat-card-header>
+        <mat-card-title class="font-semibold">🎨 Material Design</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        Professional UI components with Angular Material integrated out of the box.
+      </mat-card-content>
+    </mat-card>
+
+    <mat-card class="feature-card">
+      <mat-card-header>
+        <mat-card-title class="font-semibold">🎯 Tailwind CSS</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        Utility-first CSS framework for rapid custom styling and responsive design.
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
